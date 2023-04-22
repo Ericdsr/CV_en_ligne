@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    position: fixed;
+    width: 100%;
+}
+#first{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.p-3{
+    width: 100%;
+}
+.photocv img{
+    height: 500px;
+    width: auto;
+}
+#second{
+    height: 100vh;
+}
