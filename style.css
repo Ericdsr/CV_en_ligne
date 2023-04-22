@@ -22,3 +22,6 @@ header{
 #second{
     height: 100vh;
 }
+h1{
+    text-decoration: underline;
+}
