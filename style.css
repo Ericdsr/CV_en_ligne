@@ -38,6 +38,9 @@ h1{
     text-align: center;
     border-bottom: 2px solid black;
 }
+.atouts ul{
+    padding: 0px;
+}
 .atouts li{
     list-style-type: none;
 }
@@ -51,6 +54,9 @@ h1{
 .competences li{
     list-style-type: none;
 }
+.competences ul{
+    padding: 0px;
+}
 #third{
     display: flex;
     flex-direction: column;
@@ -59,5 +65,14 @@ h1{
     text-align: center;
 }
 .diplomes li{
+    list-style-type: none;
+}
+.diplomes ul{
+    padding: 0px;
+}
+.experiencespro ul{
+    padding: 0px;
+}
+.experiencespro li{
     list-style-type: none;
 }
