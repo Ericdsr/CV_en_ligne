@@ -76,3 +76,13 @@ h1{
 .experiencespro li{
     list-style-type: none;
 }
+.passions img{
+    height: 300px;
+    width: 100%;
+}
+.passions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
