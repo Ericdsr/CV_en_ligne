@@ -7,12 +7,12 @@ header{
     width: 100%;
 }
 .first, .third, .footer{
-    background-color: #504c4d;
+    background-color: #3F7CAF;
     color: #ffffff;
 }
 .dark{
-    background-color: #BAD4AA;
-    color: #402A2C;
+    background-color: #0f2737;
+    color: #ffffff;
 }
 .toggle-theme-btn {
     width: 100px;
@@ -37,7 +37,7 @@ header{
   
   .toggle-theme-btn:hover,
   .toggle-theme-btn:focus {
-    background-color: #BAD4AA;
+    background-color: #0f2737;
   }
   
   .toggle-theme-btn.dark {
@@ -48,7 +48,7 @@ header{
   
   .toggle-theme-btn.dark:hover,
   .toggle-theme-btn.dark:focus {
-    background-color: #424242;
+    background-color: #3F7CAF;
     color: white;
   }
   
@@ -160,6 +160,9 @@ h1{
 footer{
     height: 350px;
 }
+.footer a{
+    color: #ffffff;
+}
 .footerdispo{
     display: flex;
     align-items: center;
@@ -171,9 +174,12 @@ footer{
     align-items: center;
     justify-content: center;
 }
-@media (min-device-width:667px) {
+@media (min-device-width:667px) and (min-device-width:300px) {
+    #first{
+        height: 100vh;
+    }
     .photocv img{
-        height: 300px;
+        height: 350px;
     }
     .about-me p{
         width: 400px;
@@ -198,5 +204,24 @@ footer{
         flex-direction: row;
         align-items: center;
         justify-content: center;
+    }
+}
+@media (min-device-width:667px) {
+    .photocv img{
+        height: 750px;
+    }
+    #third{
+        padding-top: 65px;
+    }
+    .diplomes h1{
+        padding-bottom: 65px;
+    }
+    .experiencespro{
+        padding-top: 65px;
+        padding-bottom: 65px;
+    }
+    .passions{
+        padding-top: 65px;
+        padding-bottom: 65px;
     }
 }
