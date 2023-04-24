@@ -150,9 +150,53 @@ h1{
     height: 300px;
     width: 100%;
 }
+
 .passions{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+footer{
+    height: 350px;
+}
+.footerdispo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.reseaux h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (min-device-width:667px) {
+    .photocv img{
+        height: 300px;
+    }
+    .about-me p{
+        width: 400px;
+    }
+    .text-align{
+        width: 400px;
+    }
+    .passions img{
+        width: 400px;
+    }
+    .reseaux{
+        width: 300px;
+    }
+    .icon{
+        margin-top: 27px;
+    }
+    footer{
+        height: 200px;
+    }
+    .footerdispo{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
 }
