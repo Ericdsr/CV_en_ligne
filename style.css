@@ -174,12 +174,41 @@ footer{
     align-items: center;
     justify-content: center;
 }
-@media (min-device-width:667px) and (min-device-width:300px) {
+#third{
+    padding-top: 65px;
+}
+.diplomes h1{
+    padding-bottom: 65px;
+}
+.experiencespro{
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+.passions{
+    padding-bottom: 65px;
+}
+.titre{
+    padding-top: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#second{
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+.passions{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+}
+@media (min-width:667px) and (min-width:300px) {
     #first{
         height: 100vh;
     }
     .photocv img{
-        height: 350px;
+        height: 100vh;
     }
     .about-me p{
         width: 400px;
@@ -197,7 +226,7 @@ footer{
         margin-top: 27px;
     }
     footer{
-        height: 200px;
+        height: 300px;
     }
     .footerdispo{
         display: flex;
@@ -205,10 +234,13 @@ footer{
         align-items: center;
         justify-content: center;
     }
+    section,footer{
+        font-size: 24px;
+    }
 }
-@media (min-device-width:667px) {
+@media (min-width:667px) and (min-width:820px) {
     .photocv img{
-        height: 750px;
+        height: 100vh;
     }
     #third{
         padding-top: 65px;
@@ -223,5 +255,59 @@ footer{
     .passions{
         padding-top: 65px;
         padding-bottom: 65px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    #second{
+        padding-top: 65px;
+        padding-bottom: 65px;
+    }
+}
+@media (min-width:820px) and (min-width:1200px) {
+    .photocv img{
+        height: 100vh;
+    }
+    .text-align{
+        width: 100%;
+    }
+    #third{
+        padding-top: 65px;
+    }
+    .diplomes h1{
+        padding-bottom: 65px;
+    }
+    .experiencespro{
+        padding-top: 65px;
+        padding-bottom: 65px;
+    }
+    #four{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .passions{
+        width: 100vh;
+        padding-top: 65px;
+        padding-bottom: 65px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 65px;
+    }
+    #second{
+        padding-top: 65px;
+        padding-bottom: 65px;
+    }
+    .footerdispo{
+        justify-content: space-between;
+        padding: 30px;
+    }
+    .icon{
+        margin: 0px;
     }
 }
