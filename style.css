@@ -16,6 +16,15 @@ header{
 .offcanvas{
     --bs-offcanvas-width: 150px;
 }
+.offcanvas-header{
+    justify-content:flex-end;
+}
+.offcanvas-backdrop.show{
+    opacity: 0;
+}
+.bg-dark{
+    background-color:rgba(0, 0, 0, 0.274);
+}
 .dark{
     background-color: #0f2737;
     color: #ffffff;
@@ -238,6 +247,12 @@ footer{
     }
     section,footer{
         font-size: 24px;
+    }
+    .offcanvas.show:not(.hiding){
+        width: 250px;
+    }
+    .offcanvas{
+        --bs-offcanvas-width: 250px;
     }
 }
 @media (min-width:667px) and (min-width:820px) {
