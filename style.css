@@ -102,7 +102,7 @@ header{
 }
 .photocv img{
     height: 500px;
-    width: auto;
+    width: 350px;
 }
 h1{
     text-decoration: underline;
@@ -175,6 +175,13 @@ h1{
 }
 footer{
     height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.reseaux{
+    padding-left: 21px;
 }
 .footer a{
     color: #ffffff;
@@ -220,6 +227,7 @@ footer{
     }
     .photocv img{
         height: 100vh;
+        width: auto;
     }
     .about-me p{
         width: 400px;
@@ -258,7 +266,9 @@ footer{
 @media (min-width:667px) and (min-width:820px) {
     .photocv img{
         height: 100vh;
+        width: auto;
     }
+    
     #third{
         padding-top: 65px;
     }
