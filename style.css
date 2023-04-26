@@ -56,8 +56,8 @@ header{
   }
   
   .toggle-theme-btn.dark {
-    background-color: #fff;
-    color: #212121;
+    background-color: #0d921d;
+    color: #ffffff;
     box-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
   }
   
@@ -237,6 +237,8 @@ footer{
     }
     .photocv img:nth-child(2){
         display: flex;
+        height: 100vh;
+        width: auto;
     }
     .about-me p{
         width: 400px;

@@ -11,3 +11,4 @@ toggleThemeBtn.addEventListener('click', function() {
   section3.classList.toggle('dark');
   footer1.classList.toggle('dark');
 });
+
