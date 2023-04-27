@@ -6,9 +6,13 @@ header{
     position: fixed;
     width: 100%;
 }
-.first, .third, .footer{
-    background-color: #3F7CAF;
-    color: #ffffff;
+.none{
+    display: none;
+}
+.first, .third,
+footer{
+    background-color: #3d3e3d6b;
+    color: #f8f8f8;
 }
 .offcanvas.show:not(.hiding){
     width: 150px;
@@ -16,6 +20,7 @@ header{
 .offcanvas{
     --bs-offcanvas-width: 150px;
 }
+
 .offcanvas-header{
     justify-content:flex-end;
 }
@@ -26,7 +31,7 @@ header{
     background-color:rgba(0, 0, 0, 0.274);
 }
 .dark{
-    background-color: #0f2737;
+    background-color: #000000;
     color: #ffffff;
 }
 .toggle-theme-btn {
@@ -202,9 +207,6 @@ footer{
 }
 #third{
     padding-top: 65px;
-}
-.diplomes h1{
-    padding-bottom: 65px;
 }
 .experiencespro{
     padding-top: 65px;
