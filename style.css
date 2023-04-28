@@ -161,7 +161,7 @@ nav#slide-menu {
 }
 .toggle-theme-btn {
     position: fixed;
-    bottom: 5px;
+    top: 10px;
     right: 10px;
     background: #dfe5eb;
     cursor: pointer;
@@ -234,6 +234,7 @@ nav#slide-menu {
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease-in-out;
+    height: 100vh;
 }
 .photocv{
     margin-bottom: 25px;
