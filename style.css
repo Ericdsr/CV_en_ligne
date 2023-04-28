@@ -161,21 +161,18 @@ nav#slide-menu {
 }
 .toggle-theme-btn {
     position: fixed;
-    top: 3px;
-    left: 100px;
-    width: 36px;
-    height: 36px;
+    bottom: 5px;
+    right: 10px;
     background: #dfe5eb;
     cursor: pointer;
     border-radius: 5px;
     -moz-transition: all 300ms;
     -webkit-transition: all 300ms;
     transition: all 300ms;
-    width: 100px;
-    height: 50px;
+    width: 36px;
+    height: 36px;
     display: inline-flex;
     align-items: center;
-    justify-content: center;
     padding: 10px;
     font-size: 10px;
     font-weight: bold;
@@ -185,7 +182,6 @@ nav#slide-menu {
     color: #fff;
     background-color: #212121;
     border: none;
-    border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -209,10 +205,7 @@ nav#slide-menu {
   }
   
   .toggle-theme-btn__icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 10px;
+    margin-left: 3px;
   }
   
   .toggle-theme-btn__icon i {
@@ -237,13 +230,14 @@ nav#slide-menu {
   }  
 
 #first{
-    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease-in-out;
 }
-s
+.photocv{
+    margin-bottom: 25px;
+}
 .photocv img{
     height: 500px;
     width: 350px;
