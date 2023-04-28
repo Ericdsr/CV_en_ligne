@@ -10,7 +10,6 @@ const menu = document.querySelector('#slide-menu');
 toggleThemeBtn.addEventListener('click', function() {
   toggleThemeBtn.classList.toggle('dark');
   section3.classList.toggle('dark');
-  footer1.classList.toggle('dark');
   content.classList.toggle('dark');
   rese.classList.toggle('dark');
   menu.classList.toggle('darkna');
