@@ -160,7 +160,7 @@ nav#slide-menu {
     background-color:rgba(0, 0, 0, 0.274);
 }
 .dark{
-    background-color: #000000;
+    background-color: #403f3f !important;
     color: #ffffff;
 }
 .toggle-theme-btn {
