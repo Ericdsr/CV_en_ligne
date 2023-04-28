@@ -1,13 +1,11 @@
 *{
     margin: 0px;
     padding: 0px;
+    scroll-behavior: smooth;
 }
 header{
     position: fixed;
     width: 100%;
-}
-.none{
-    display: none;
 }
 
 /*
@@ -50,7 +48,6 @@ nav#slide-menu {
     font-family: "ico";
     font-style: normal;
     font-weight: normal;
-    speak: none;
     display: inline-block;
     text-decoration: inherit;
     width: 1em;
@@ -66,7 +63,6 @@ nav#slide-menu {
   nav#slide-menu > ul li i{
     font-style: normal;
     font-weight: normal;
-    speak: none;
     display: inline-block;
     text-decoration: inherit;
     width: 1em;
@@ -161,7 +157,7 @@ nav#slide-menu {
 }
 .dark{
     background-color: #403f3f !important;
-    color: #ffffff;
+    color: #ffffff !important;
 }
 .toggle-theme-btn {
     position: fixed;
@@ -239,12 +235,15 @@ nav#slide-menu {
   .toggle-theme-btn__label {
     margin-right: 10px;
   }  
+
 #first{
     height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all 0.3s ease-in-out;
 }
+s
 .photocv img{
     height: 500px;
     width: 350px;
@@ -328,9 +327,7 @@ footer{
 }
 .reseaux{
     padding-left: 21px;
-}
-.footer a{
-    color: #ffffff;
+    color: black;
 }
 .footerdispo{
     display: flex;
@@ -343,20 +340,11 @@ footer{
     align-items: center;
     justify-content: center;
 }
-#third{
-    padding-top: 65px;
-}
-.experiencespro{
-    padding-top: 65px;
-}
 .titre{
     padding-top: 65px;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-#second{
-    padding-top: 65px;
 }
 .passions{
     display: flex;
