@@ -312,7 +312,7 @@ h1{
     justify-content: center;
     align-items: center;
 }
-footer{
+.footer{
     height: 350px;
     display: flex;
     flex-direction: column;
@@ -377,7 +377,7 @@ footer{
     .icon{
         margin-top: 27px;
     }
-    footer{
+    .footer{
         height: 300px;
     }
     .footerdispo{
@@ -386,7 +386,7 @@ footer{
         align-items: center;
         justify-content: center;
     }
-    section,footer{
+    section,.footer{
         font-size: 24px;
     }
     .offcanvas.show:not(.hiding){
@@ -431,6 +431,11 @@ footer{
 @media (min-width:820px) and (min-width:1200px) {
     .photocv img:nth-child(1){
         display: none;
+    }
+    .toggle-theme-btn {
+        position: fixed;
+        top: 10px;
+        right: 35px;
     }
     .text-align{
         width: 100%;
