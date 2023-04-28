@@ -4,6 +4,8 @@ const section3 = document.querySelector('#third');
 const footer1 = document.querySelector('footer');
 const content = document.querySelector('#content');
 const rese = document.querySelector('#reseaux');
+const menu = document.querySelector('#slide-menu');
+
 
 toggleThemeBtn.addEventListener('click', function() {
   toggleThemeBtn.classList.toggle('dark');
@@ -11,5 +13,6 @@ toggleThemeBtn.addEventListener('click', function() {
   footer1.classList.toggle('dark');
   content.classList.toggle('dark');
   rese.classList.toggle('dark');
+  menu.classList.toggle('darkna');
 
 });
