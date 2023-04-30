@@ -15,3 +15,7 @@ toggleThemeBtn.addEventListener('click', function() {
   menu.classList.toggle('darkna');
 
 });
+
+function closeNav() {
+  document.querySelector('#menu').classList.remove('menu-active');
+}
