@@ -158,6 +158,12 @@ nav#slide-menu {
     background-color: #403f3f !important;
     color: #ffffff !important;
 }
+.dark a{
+    color: white !important;
+}
+.dark i{
+    color: white !important;
+}
 .darkna{
     background-image: linear-gradient(to bottom, #000000, #141414, #212121, #2f2f2f, #3d3d3d) !important;
 }
@@ -374,6 +380,13 @@ h1{
     #first{
         height: 100vh;
     }
+    #second{
+        font-size: 24px;
+        padding-bottom: 0px;
+    }
+    #third{
+        font-size: 24px;
+    }
     .photocv img{
         height: 100vh;
         width: auto;
@@ -431,7 +444,7 @@ h1{
     
     #third{
         padding-top: 65px;
-        font-size: 26px !important;
+        font-size: 26px;
     }
     .diplomes h1{
         padding-bottom: 65px;
