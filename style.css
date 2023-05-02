@@ -59,7 +59,10 @@ nav#slide-menu {
     text-transform: none;
     line-height: 1em;
   }
-  
+  nav#slide-menu ul li a{
+    color: white;
+    text-decoration: none;
+  }
   nav#slide-menu > ul li i{
     font-style: normal;
     font-weight: normal;
@@ -235,6 +238,11 @@ nav#slide-menu {
     transition: all 0.3s ease-in-out;
     height: 100vh;
 }
+#second{
+    font-size: 18px;
+    gap: 35px;
+    margin-bottom: 35px;
+}
 .photocv{
     margin-bottom: 25px;
 }
@@ -247,7 +255,8 @@ nav#slide-menu {
 }
 h1{
     text-decoration: underline;
-    padding-bottom: 0px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 .about-me{
     display: flex;
@@ -288,6 +297,8 @@ h1{
     align-items: center;
     justify-content: center;
     text-align: center;
+    font-size: 18px;
+    gap: 30px;
 }
 .diplomes li{
     list-style-type: none;
@@ -305,7 +316,9 @@ h1{
     height: 300px;
     width: 100%;
 }
-
+.icon p{
+    margin-bottom: 10px;
+}
 .passions{
     display: flex;
     flex-direction: column;
@@ -323,11 +336,22 @@ h1{
     padding-left: 21px;
     color: black;
 }
+.reseaux p{
+    margin-bottom: 10px;
+    color: black;
+}
+.reseaux a{
+    text-decoration: underline;
+    color: black;
+    cursor: pointer;
+
+}
 .footerdispo{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    gap: 25px;
 }
 .reseaux h4{
     display: flex;
@@ -335,7 +359,7 @@ h1{
     justify-content: center;
 }
 .titre{
-    padding-top: 65px;
+    padding-top: 35px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -407,6 +431,7 @@ h1{
     
     #third{
         padding-top: 65px;
+        font-size: 26px !important;
     }
     .diplomes h1{
         padding-bottom: 65px;
@@ -440,8 +465,12 @@ h1{
     .text-align{
         width: 100%;
     }
+    #second{
+        font-size: 26px;
+    }
     #third{
         padding-top: 65px;
+        font-size: 26px !important;
     }
     .diplomes h1{
         padding-bottom: 65px;
@@ -470,6 +499,9 @@ h1{
     #second{
         padding-top: 65px;
         padding-bottom: 65px;
+    }
+    #footer{
+        font-size: 26px;
     }
     .footerdispo{
         justify-content: space-between;
